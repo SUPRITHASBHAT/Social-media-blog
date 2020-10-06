@@ -1,0 +1,133 @@
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 128px;
+}
+
+h1:hover{
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    cursor: pointer; 
+}
+
+h1:active{
+    color: white;
+    text-decoration-color: white;
+}
+h2{
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+p{
+    color: wheat;
+}
+
+pre{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+label{
+    color: red;
+    font-size: 21px;
+    font-family: cursive;
+    vertical-align: top;
+}
+
+textarea{
+    background-color: black;
+    border-color: red;
+    height: 320px;
+    width: 1428px;
+    color: white;
+    font-size: 20px;
+}
+
+textarea:hover:not(:focus){
+    border-color: blue;
+}
+
+textarea:focus:not(:hover) {
+    border-color: white;
+}
+a{
+    color: red;
+}
+
+a:hover{
+color: blue;
+}
+
+a:active{
+    color: white;
+}
+
+
+.addEmptySpace{ /*adds space in between welcome and about*/
+    height: 34px;
+}
+
+.edit-icon{
+    height: 20px;
+    width: 20px;
+    position: relative;
+}
+
+button{
+    cursor: pointer;
+}
+
+.doneButton{
+    background-color: red;
+    width: 180px;
+    height: 56px;
+    border-color: red;
+    font-size: 21px;
+    float: right;
+    margin-left: 5px;
+}
+
+.discardButton{
+    background-color: red;
+    width: 180px;
+    height: 56px;
+    border-color: red;
+    font-size: 21px;
+    float: right;
+}
+
+i {
+    color: red;
+    cursor: pointer;
+}
+
+i:hover {
+    color: blue;
+}
+
+i:active{
+    color: white;
+}
+
+.showPost{
+    color: white;
+    background-color: black;
+    font-size: 32px;
+    text-align: center;
+    border: none;
+    /* margin-left: 25%; */
+    /* border-color: none; */
+    /* border-bottom-color: white;
+    border-top-color: white; */
+    
+}
+
+.hide{
+display: none !important;
+}

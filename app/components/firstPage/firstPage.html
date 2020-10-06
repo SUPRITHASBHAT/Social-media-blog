@@ -1,0 +1,21 @@
+<div id="comments">
+    <h2 id="yourPost" class="hide">YOUR POST:</h2>
+</div>
+<br>
+<form>
+
+<label>Wanna share your mind:</label>
+<textarea id="text-area" onkeyup="{$}checkText()" onblur="{$}disableTextarea()" disabled>
+</textarea>
+    <i class="material-icons icon-white" onclick="{$}enableTextarea()">
+        edit
+        </i>
+</button>
+<br>
+<br>
+
+<button class="doneButton" onclick="{$}onPost()" disabled>Post</button>
+<button class="discardButton" id="discardButton" onclick="{$}clearText()" disabled>Discard</button>
+
+
+</form>
